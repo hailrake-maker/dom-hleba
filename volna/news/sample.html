@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: https://static-maps.yandex.ru; font-src 'self'; frame-src https://yandex.by https://yandex.ru; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Образец новости — «Дом хлеба», Червень</title>
+  <meta name="description" content="Образец страницы новости церкви «Дом хлеба» в Червене.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0f2b2b">
+  <meta name="color-scheme" content="light">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/icon-192.png">
+  <link rel="apple-touch-icon" href="../assets/icon-180.png">
+
+  <link rel="preload" href="../assets/fonts/literata-600-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/literata-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="../header.js" defer></script>
+  <script src="../motion.js" defer></script>
+  <meta property="og:url" content="https://hailrake-maker.github.io/dom-hleba/volna/news/sample.html">
+  <meta property="og:image" content="https://hailrake-maker.github.io/dom-hleba/volna/assets/church-cherven.jpg">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="../index.html">
+      <img class="brand__logo" src="../assets/logo-dom-hleba-white.svg" alt="«Дом хлеба» · Червень" width="56" height="56">
+    </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <ul>
+        <li><a href="../index.html#services">Служения</a></li>
+        <li><a href="../about.html">О церкви</a></li>
+        <li><a href="../news.html" aria-current="page">Новости</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="post-hero" aria-labelledby="post-title">
+    <div class="wrap">
+      <a class="back-link" href="../news.html">← Все новости</a>
+      <p class="post-hero__label">Образец оформления — текст и&nbsp;фото добавим</p>
+      <h1 id="post-title">Название более ранней новости</h1>
+      <p class="post-hero__date">Дата</p>
+    </div>
+  </section>
+
+  <article class="section post" aria-labelledby="post-title">
+    <div class="wrap post__body">
+      <div class="gallery gallery--post" role="region" aria-label="Фотографии новости" tabindex="0">
+        <figure class="gallery__item gallery__item--placeholder"><div class="gallery__ph">Фото 1</div></figure>
+        <figure class="gallery__item gallery__item--placeholder"><div class="gallery__ph">Фото 2</div></figure>
+        <figure class="gallery__item gallery__item--placeholder"><div class="gallery__ph">Фото 3</div></figure>
+      </div>
+
+      <div class="prose">
+        <div class="draft-note">
+          <p><strong>Здесь будет описание события</strong> — несколько абзацев.</p>
+        </div>
+      </div>
+
+      <p><a class="more-link" href="../news.html">← Все новости</a></p>
+    </div>
+  </article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <img class="site-footer__logo" src="../assets/logo-dom-hleba-white.svg" alt="" width="88" height="88">
+    <p class="site-footer__name">«Дом хлеба» — церковь ХВЕ, Червень</p>
+    <p>Воскресенье 10:00 · Среда 18:00</p>
+    <p>г.&nbsp;Червень, пер. Карла Либкнехта,&nbsp;12</p>
+    <p class="site-footer__draft">Черновик сайта: тексты ещё согласуются с&nbsp;церковью.</p>
+  </div>
+</footer>
+
+</body>
+</html>
